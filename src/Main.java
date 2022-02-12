@@ -32,9 +32,9 @@ public class Main {
                         balance = false;
                     }
                 }
-                if(balance == true) {
-                    balance = stack.isEmpty();
-                }
+            }
+            if(balance == true) {
+                balance = stack.isEmpty();
             }
             String msg = String.format("input = %s, balanced = %s", input, balance);
             System.out.println(msg);
